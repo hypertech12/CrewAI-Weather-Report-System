@@ -1,5 +1,8 @@
+import warnings
+warnings.filterwarnings("ignore")
 from langchain_ollama import OllamaLLM
 from langchain_core.prompts import PromptTemplate
+import warnings
 
 # Define your weather agent
 class WeatherDataCollector:
